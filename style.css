@@ -1,0 +1,73 @@
+@charset "utf-8";
+        /* Common */
+        @font-face {
+        font-family:ngwoff;
+        src:url('/tpl/font/NanumGothic.woff')
+        }
+        @font_face {
+        font-family:ngeot;
+        src:url('/tpl/font/NanumGothic.eot');
+        }
+        @font-face {
+        font-family:NanumGothic;
+        src:url('/tpl/font/NanumGothic.ttf');
+        }
+        html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin:0; padding:0 }
+        body, input, textarea, select, button, table { font-size:14px; line-height:1.25em; font-family:'나눔고딕', NanumGothic, Helvetica, AppleGothic, Sans-serif, ngwoff, ngeot, '굴림', gulrem; }
+        html, body { height: 100%; padding:0; margin:0; }
+        img, fieldset { border:0 }
+        ul, ol { list-style:none }
+        em, address { font-style:normal }
+        a { text-decoration:none }
+        a:hover, a:active, a:focus { text-decoration:underline }
+
+        #Header{
+            width: 100%;
+            height: 80px;
+            background-color: #992725;
+        }
+
+        #content{
+            width: 100%;
+            background-color: #373FA6;
+
+        }
+
+        #footer{
+            width: 100%;
+            height: 89px;
+            background-color: #992725;
+        }
+
+        .container {
+            width: 400px;
+            height: inherit;
+            background-color: aliceblue;
+            margin: 0 auto;
+        }
+
+        .Header h2{
+            text-align: center;
+            padding: 30px 30px 30px 30px;
+        }
+
+        .Header ul{
+            overflow: hidden;
+        }
+        .Header ul li{
+            float: left;
+            width: 25%;
+            text-align: center;
+
+        }
+
+        .Header ul li a{
+
+        }
+
+        .content form .user-form{
+            width: 80%;
+            height: 50px;
+            margin: 0;
+
+        }

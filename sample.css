@@ -1,0 +1,186 @@
+/* ID LIST */
+#header {
+  width: 100%;
+  position: fixed;
+}
+#slide {
+  height: 450px;
+  background-color: #d499b9;
+  background: url("https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+}
+#content {
+}
+#footer {
+  height: 80px;
+  background-color: #ec7357;
+}
+
+/* Container */
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  height: inherit;
+  /*background-color: rgba(0, 0, 0, 0.3);*/
+}
+
+/* ■■■■ class List ■■■■ */
+/* class List - 1. header */
+.header {
+  overflow: hidden;
+  text-align: center;
+  height: 80px;
+  line-height: 80px;
+}
+.header h1 {
+  float: left;
+  width: 20%;
+  font-size: 41px;
+}
+.header .nav {
+  float: left;
+  width: 75%;
+}
+.header .nav ul {
+  overflow: hidden;
+}
+.header .nav ul li {
+  float: left;
+  width: 25%;
+}
+.header .nav ul li a {
+  font-size: 16px;
+  display: block;
+}
+
+.header .search {
+  float: left;
+  width: 5%;
+  font-size: 9px;
+  text-align: right;
+}
+
+/* class List - 2. slide */
+.slide {
+}
+
+/* class List - 3. content */
+.content {
+}
+.content .cbox {
+}
+/* class List - 3-1. cbox1 */
+.content .cbox.cbox1 {
+  overflow: hidden;
+}
+
+.cbox-all {
+}
+
+.cbox.cbox1 .cbox1left {
+  float: left;
+  width: 50%;
+  height: 600px;
+  background-color: #d499b9;
+  background: url("https://images.unsplash.com/photo-1553324069-bb3824279d36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: all 0.6s;
+}
+
+.cbox.cbox1 .cbox1left a:hover {
+  transform: scale(1.2);
+}
+
+.cbox.cbox1 .cbox1left p {
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.cbox.cbox1 .cbox1left .cbox1-left-title {
+  margin-top: 30px;
+  font-size: 50px;
+}
+
+.cbox.cbox1 .cbox1left a {
+  display: inline-block;
+  margin-left: 30px;
+  background-color: black;
+  color: aliceblue;
+  padding: 10px 30px 10px 30px;
+  /*padding: 10px 30px*/
+  transition: all 0.6s;
+}
+
+.cbox.cbox1 .cbox1right {
+  float: left;
+  width: 50%;
+  height: 600px;
+  background-color: #ec7357;
+  background: url("https://images.unsplash.com/photo-1553324069-bb3824279d36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.cbox-all img {
+  width: 100%;
+  height: 30px;
+}
+/* class List - 3-2. cbox2 */
+.content .cbox.cbox2 {
+  background-color: rgb(209, 209, 255);
+  overflow: hidden;
+}
+
+.cbox2-title {
+  margin: 50px 0;
+}
+
+.cbox2-title h1 {
+  font-size: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: #2a3fff;
+}
+
+.cbox2-box-imgBox {
+  float: left;
+  width: 33.3%;
+  box-sizing: border-box;
+  padding: 30px;
+}
+
+.cbox2-box-imgBox h3 {
+  margin-top: 30px;
+  color: gray;
+}
+
+.cbox2-box-imgBox p {
+  margin-top: 10px;
+}
+
+.cbox2-box-imgBox img {
+  width: 100%;
+  height: 200px;
+}
+
+.cbox2-box-imgBox.cbox2-box-imgBox1 {
+}
+
+.cbox2-box-imgBox.cbox2-box-imgBox2 {
+}
+
+.cbox2-box-imgBox.cbox2-box-imgBox3 {
+}
+
+/* class List - 3-3. cbox3 */
+.content .cbox.cbox3 {
+}
+
+/* class List - 4. footer */
+.footer {
+}
